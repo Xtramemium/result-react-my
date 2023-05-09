@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-const date = new Date().toDateString().toLocaleString()  // Декларативный   
 export const App = () => {
     return (
         <div className="App">
@@ -17,9 +16,6 @@ export const App = () => {
                 >
                     Learn React
                 </a>
-                <span>
-                    {date}
-                </span>
             </header>
         </div>
     );
